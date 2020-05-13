@@ -1,0 +1,208 @@
+<div class="container-fluid aBgColor">
+  <div class="row">
+    <div class="col-4"></div>
+    <div class="col-4">
+      <h2 class="titleColor titleDisplay rounded titleAlign">About Me</h2>
+    </div>
+    <div class="col-4"></div>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <h4 class="titleColor titleDisplay rounded titleAlign">Languages I Know</h4>
+      <a class="titleAlign"><img src="../../assets/img/html5-css-javascript-logos.png" width="175"></a>
+      <br>
+      <div class="titleAlign">
+        <img src="../../assets/img/csharp-logo.png" width="65">
+        <img src="../../assets/img/JSONLogo.png" class="imgNudge" width="55">
+        <img src="../../assets/img/TypeScriptLogo.png" class="imgNudge" width="50">
+        <img src="../../assets/img/AngularLogo.png" class="imgNudge" width="55">
+      </div>
+    </div>
+    <div class="col-4">
+      <h4 class="titleColor titleDisplay rounded titleAlign">School Attended</h4>
+      <a href="https://codestackacademy.org" class="titleAlign2"><img src="../../assets/img/code-stack-academy.png" width="125"></a>
+    </div>
+    <div class="col-4"></div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row mainBgColor">
+    <div class="col secBgColor rounded">
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4 titleStretch">
+          <h1 class="titleDisplay rounded titleAlign">CodeStack</h1>
+        </div>
+        <div class="col-4"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-4">
+          <div class="container cardAlign">
+            <img src="../../assets/img/Group 1.png" class="img-fluid" width="290">
+            <button class="btn centered" (click)="openWindowCustomClass(content)">Combine</button>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="container cardAlign">
+            <img src="../../assets/img/Group 1.png" class="img-fluid" width="290">
+            <button class="btn centered" (click)="openWindowCustomClass(content1)">Level 1</button>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="container cardAlign">
+            <img src="../../assets/img/Group 1.png" class="img-fluid" width="290">
+            <button class="btn centered" (click)="openWindowCustomClass(content2)">Level 2</button>
+          </div>
+        </div>
+      </div>
+
+      <ng-template #content let-modal>
+        <div class="modal-header">
+          <h4 class="modal-title">Combine Assignments, <h6>Unfortunately I don't know how to display C# Projects. The
+              code
+              for everything will be on GitHub though.</h6>
+          </h4>
+
+          <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-4">
+              <img src="../../assets/img/Group 2.png" class="img-fluid" width="225">
+              <a class="miniLeft txtColor" href="#">Challenge 1
+                Hangman</a>
+            </div>
+            <div class="col-4">
+              <img src="../../assets/img/Group 2.png" class="img-fluid" width="225">
+              <a class="miniCentered txtColor" href="#">Challenge 2 Lottery</a>
+            </div>
+            <div class="col-4">
+              <img src="../../assets/img/Group 2.png" class="img-fluid" width="225">
+              <a class="miniRight txtColor" href="#">Challenge 3 Digital Clock</a>
+            </div>
+          </div>
+          <div class="row miniMove">
+            <div class="col-4">
+              <img src="../../assets/img/Group 2.png" class="img-fluid" width="225">
+              <a class="miniLeft txtColor" href="#">Challenge 4 Hangman Returns</a>
+            </div>
+            <div class="col-4">
+              <img src="../../assets/img/Group 2.png" class="img-fluid" width="225">
+              <a class="miniCentered txtColor" href="#">Lab 1 Group Project</a>
+            </div>
+            <div class="col-4">
+              <img src="../../assets/img/Group 2.png" class="img-fluid" width="225">
+              <a class="miniRight txtColor" href="#">Lab 2 Temp Converter</a>
+            </div>
+          </div>
+          <div class="row miniMove">
+            <div class="col-4">
+              <img src="../../assets/img/Group 2.png" class="img-fluid" width="225">
+              <a class="miniLeft txtColor" href="#">Lab 3 Calculator</a>
+            </div>
+            <div class="col-4">
+              <img src="../../assets/img/Group 2.png" class="img-fluid" width="225">
+              <a class="miniCentered txtColor" href="#">Lab 4 Weight Conversion</a>
+            </div>
+            <div class="col-4">
+              <img src="../../assets/img/Group 2.png" class="img-fluid" width="225">
+              <a class="miniRight txtColor" href="#">Lab 5 Measurement Conv.</a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" (click)="modal.close('Close click')">Close</button>
+        </div>
+      </ng-template>
+
+      <ng-template #content1 let-modal>
+        <div class="modal-header">
+          <h4 class="modal-title">Level 1 Assignments</h4>
+          <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-4">
+              <img src="../../assets/img/Group 2.png" class="img-fluid" width="225">
+              <a class="miniLeft txtColor"
+                href="../../assignments/Level1/Challenge1Research/NortizChallenge1Research.pdf">Challenge 1 Research</a>
+            </div>
+            <div class="col-4">
+              <img src="../../assets/img/Group 2.png" class="img-fluid" width="225">
+              <a class="miniCentered txtColor" href="/challenge2">Challenge
+                2
+                MultiPage</a>
+            </div>
+            <div class="col-4">
+              <img src="../../assets/img/Group 2.png" class="img-fluid" width="225">
+              <a class="miniRight txtColor" href="../../assignments/Level1/Challenge3SplashOffline/index.html">Challenge
+                3 Splash
+                Page</a>
+            </div>
+          </div>
+          <div class="row miniMove">
+            <div class="col-4">
+              <img src="../../assets/img/Group 2.png" class="img-fluid" width="225">
+              <a class="miniLeft txtColor" href="../../assignments/Level1/Lab1StudentDirectory/index.html">Lab 1 Student
+                Directory</a>
+            </div>
+            <div class="col-4">
+              <img src="../../assets/img/Group 2.png" class="img-fluid" width="225">
+              <a class="miniCentered txtColor" href="../../assignments/Level1/Lab2ToDoApp/site/index.html">Lab 2 To Do
+                App</a>
+            </div>
+            <div class="col-4">
+              <img src="../../assets/img/Group 2.png" class="img-fluid" width="225">
+              <a class="miniRight txtColor" href="../../assignments/Level1/Project1HamsterHotel/index.html">Project 1
+                Hamster
+                Hotel</a>
+            </div>
+          </div>
+          <div class="row miniMove">
+            <div class="col-4">
+              <img src="../../assets/img/Group 2.png" class="img-fluid" width="225">
+              <a class="miniLeft txtColor" href="../../assignments/Level1/Project2PuppyRestaurant/index.html">Project 2
+                Puppy
+                Restaurant</a>
+            </div>
+            <div class="col-4">
+              <img src="../../assets/img/Group 2.png" class="img-fluid" width="225">
+              <a class="miniCentered txtColor" href="../../assignments/Level1/Project3Trivia/pages/index.html">Project 3
+                Trivia</a>
+            </div>
+            <div class="col-4">
+              <img src="../../assets/img/Group 2.png" class="img-fluid" width="225">
+              <a class="miniRight txtColor" href="../../assignments/Level1/Project4Rebuild/index.html">Project 4
+                Rebuild</a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" (click)="modal.close('Close click')">Close</button>
+        </div>
+      </ng-template>
+
+      <ng-template #content2 let-modal>
+        <div class="modal-header">
+          <h4 class="modal-title">Level 2 Assignments</h4>
+          <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Still working on the Assignments for this one..</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" (click)="modal.close('Close click')">Close</button>
+        </div>
+      </ng-template>
+
+    </div>
+  </div>
+</div>

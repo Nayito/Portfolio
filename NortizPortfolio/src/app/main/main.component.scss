@@ -1,0 +1,111 @@
+.aBgColor {
+  background-color: rgb(27, 27, 27);
+}
+
+.mainBgColor {
+  background-color: rgb(41, 37, 37);
+}
+
+.nudge {
+  margin-left: 1.5em;
+}
+
+.secBgColor {
+  margin-left: 3em;
+  margin-right: 3em;
+  background-color: #6B6565;
+}
+
+.cardAlign {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
+.cardBg {
+  background-color: #6B6565;
+}
+
+.card-body {
+  margin: 0;
+  padding: 0;
+}
+
+.centered {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: white;
+}
+
+.miniLeft {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: white;
+}
+
+.miniCentered {
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: white;
+}
+
+.miniRight {
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: white;
+}
+
+.miniMove {
+  margin-top: 1em;
+}
+
+.titleAlign {
+  display: flex;
+  justify-content: center;
+}
+
+.titleAlign2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.imgNudge {
+  margin-left: .8em;
+}
+
+.titleDisplay {
+  margin-top: .3em;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  background-color: rgb(17, 16, 16);
+  color: white;
+}
+
+.titleStretch {
+  margin: 0;
+  padding: 0;
+}
+
+.txtColor {
+  color: black;
+  font-weight: bold;
+}
+
+.titleColor {
+  color: white;
+}
